@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    background: #808080;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.wrapper{
+    width: 705px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1{
+    display: inline-block;
+    background: #fff;
+    color: #ef4478;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    float: left;
+    border-radius: 5rem;
+    padding: 4px 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.items{
+    display: block;
+    margin: 20px 0;
+}
+
+.item{
+    background: #fff;
+    float: left;
+    margin:  0 10px 10px 0;
+    width: 205px;
+    padding: 10px;
+}
+
+.item img{
+    display: block;
+    margin: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.item h2{
+    font-size: 16px;
+    display: block;
+    border-bottom: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px 0;
+    color: #000;
+}
+
+p{
+    color: #000;
+    margin-bottom: 5px;
+}
+
+button{
+    border: 1px solid #ef4478;
+    padding: 4px 14px;
+    background-color: #ef4478;
+    color: #fff;
+    text-transform: uppercase;
+    float: right;
+    margin: 5px 0;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5rem;
+}
+
+button:focus{
+    outline: none !important;
+}
+
+span{
+    float: right;
+}
+
+.shopping-cart{
+    display: inline-block;
+    background: url('image/cart.png') no-repeat 0 0;
+    width: 24px;
+    height: 24px;
+    margin:  0 10px 0 0;
+}
